@@ -1,0 +1,3 @@
+DROP TABLE IF EXISTS inventory_audit;
+DROP TABLE IF EXISTS sales;
+DROP TABLE IF EXISTS products;
