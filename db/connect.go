@@ -9,7 +9,7 @@ import (
 var DB *sql.DB
 
 func InitDB() {
-	connStr := "postgres://localhost:5432/flowhub?sslmode=disable"
+	connStr := "postgres://localhost:5432/flow_app_db?sslmode=disable"
 	var err error
 	DB, err = sql.Open("postgres", connStr)
 	if err != nil {
