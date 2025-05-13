@@ -15,7 +15,7 @@ func main() {
 
 	r.GET("/products", handlers.ListProducts)
 
-	// r.POST("/sales", CreateSale)
+	r.POST("/sales", handlers.CreateSale)
 	// r.GET("/metrics/monthly-sales", GetMonthlySales)
 	// r.GET("/metrics/unsellables", GetUnsellableProducts)
 
