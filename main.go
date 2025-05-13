@@ -16,8 +16,10 @@ func main() {
 	r.GET("/products", handlers.ListProducts)
 
 	r.POST("/sales", handlers.CreateSale)
-	// r.GET("/metrics/monthly-sales", GetMonthlySales)
-	// r.GET("/metrics/unsellables", GetUnsellableProducts)
+
+	r.GET("/metrics/monthly-sales", handlers.GetMonthlySales)
+
+	r.GET("/metrics/unsellables", handlers.GetUnsellableProducts)
 
 	log.Println("Server running at http://localhost:8080")
 	r.Run(":8080")
