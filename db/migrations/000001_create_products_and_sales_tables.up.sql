@@ -1,7 +1,7 @@
 CREATE TABLE products (
     id SERIAL PRIMARY KEY,
     name TEXT NOT NULL,
-    category TEXT NOT NULL, -- e.g. flower, edible
+    category TEXT NOT NULL,
     price NUMERIC NOT NULL,
     quantity INT NOT NULL,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
