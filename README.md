@@ -39,7 +39,7 @@ Start the server: `go run main.go`
 Migrate the database: `migrate -path db/migrations -database "postgres://localhost:5432/flowhub?sslmode=disable" up`
 
 ### ✨ Why This Exists
-Because I wanted to what I could do in a few nights to expose myself to GO and it's tooling. This isn’t a full system, but it reflects my ability to prioritize, learn, and create functional backend architecture for funsies.
+Because I wanted to see what I could do in a few nights after work to expose myself to GO and it's tooling. This isn’t a full system, but it reflects my ability to prioritize, learn, and create functional backend architecture for funsies.
 
 ### 📜 License
 MIT. Free to use, but you still gotta be cool about it.
