@@ -10,7 +10,7 @@ This project demonstrates:
 - Handling core retail and compliance-style workflows (inventory, sales, reporting)
 
 
-### 🧠 Features
+### 🌟 Features
 
 - **Add Products** `POST /products`  
 Create inventory items with name, category, price, and quantity.  
@@ -41,5 +41,5 @@ Migrate the database: `migrate -path db/migrations -database "postgres://localho
 ### ✨ Why This Exists
 Because I wanted to what I could do in a few nights to expose myself to GO and it's tooling. This isn’t a full system, but it reflects my ability to prioritize, learn, and create functional backend architecture for funsies.
 
-### License
-MIT. You break it, you buy it. Just kidding. But also not really.
+### 📜 License
+MIT. Use at your own risk. Like gas station sushi.
