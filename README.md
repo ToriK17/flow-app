@@ -42,4 +42,4 @@ Migrate the database: `migrate -path db/migrations -database "postgres://localho
 Because I wanted to what I could do in a few nights to expose myself to GO and it's tooling. This isn’t a full system, but it reflects my ability to prioritize, learn, and create functional backend architecture for funsies.
 
 ### 📜 License
-MIT. Use at your own risk. Like gas station sushi.
+MIT. Free to use, but you still gotta be cool about it.
